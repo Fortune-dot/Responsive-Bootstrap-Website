@@ -1,0 +1,24 @@
+
+/*splash*/
+#splash{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:200vh;
+    background-color:#161313;
+    z-index: 2;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+transition:opacity 1s;
+}
+#splash img{
+height: 100%;
+width: 100%;
+}
+#splash.fade{
+    opacity:0;
+
+}

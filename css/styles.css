@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+span{
+    color:#dc143c!important;
+    font-weight:bold;
+}
+.space-block{
+    height: 6rem;
+    width: 100%;
+    background-color: white;
+}
+
+.card-block{
+padding-top: 2rem;
+background-color:#dc143c;
+display:flex;
+padding:50px;
+}
+
+.card .img{
+    height: 4rem!important;
+    width:80px!important;
+}
+.small{
+    height: 7px;
+    background-color: #dc143c;
+}
+.contact{
+    position: relative;
+    top:30px;
+   left:100px;
+}
+.footer{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(44, 42, 42);
+}
+.footer-text{
+    position: relative;
+    color:#dc143c;
+    font-weight: bold;
+    top: 50px;
+    left: 50px;
+}
+.card :hover{
+    opacity:0.5
+}
+.custom-button{
+    background-color: #dc143c;
+    border: none;
+    width: 12rem;
+    border-radius: 0;
+}
